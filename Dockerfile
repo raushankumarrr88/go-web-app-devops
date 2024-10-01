@@ -3,7 +3,7 @@
 # and run the container
 
 # Start with a base image
-FROM golang:1.21 as base
+FROM 588738566747.dkr.ecr.ap-south-1.amazonaws.com/go:latest as base
 
 # Set the working directory inside the container
 WORKDIR /app
